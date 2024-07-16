@@ -1,0 +1,11 @@
+Window handle for a new window: 569EC31FD3BEEB2265940932ABB297F3
+
+The page content: New Window
+
+Window handle for original window: B4D4FD6686B99ADF9A7A5635BBD4CC84
+
+The page content: Opening a new window
+
+NoSuchWindowException caught: no such window
+  (Session info: chrome=126.0.6478.127)
+
