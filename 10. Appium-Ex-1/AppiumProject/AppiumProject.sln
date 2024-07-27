@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumProject", "AppiumProject\AppiumProject.csproj", "{1E6B619A-4218-4BE1-89CF-EBFB6B35FE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorNoteApp", "ColorNoteApp\ColorNoteApp.csproj", "{A045407F-0798-4D2C-84AC-2239DFF071D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6B619A-4218-4BE1-89CF-EBFB6B35FE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6B619A-4218-4BE1-89CF-EBFB6B35FE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6B619A-4218-4BE1-89CF-EBFB6B35FE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6B619A-4218-4BE1-89CF-EBFB6B35FE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A045407F-0798-4D2C-84AC-2239DFF071D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A045407F-0798-4D2C-84AC-2239DFF071D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A045407F-0798-4D2C-84AC-2239DFF071D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A045407F-0798-4D2C-84AC-2239DFF071D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAFE56C8-22E9-4058-990D-E9D13B62DE5A}
+	EndGlobalSection
+EndGlobal

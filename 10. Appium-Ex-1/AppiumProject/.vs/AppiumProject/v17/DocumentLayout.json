@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Front-End Automation\\10. Appium-Exercise-1\\AppiumProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A045407F-0798-4D2C-84AC-2239DFF071D7}|ColorNoteApp\\ColorNoteApp.csproj|c:\\users\\simo7\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\front-end automation\\10. appium-exercise-1\\appiumproject\\colornoteapp\\colornoteapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A045407F-0798-4D2C-84AC-2239DFF071D7}|ColorNoteApp\\ColorNoteApp.csproj|solutionrelative:colornoteapp\\colornoteapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColorNoteAppTests.cs",
+              "DocumentMoniker": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Front-End Automation\\10. Appium-Exercise-1\\AppiumProject\\ColorNoteApp\\ColorNoteAppTests.cs",
+              "RelativeDocumentMoniker": "ColorNoteApp\\ColorNoteAppTests.cs",
+              "ToolTip": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Front-End Automation\\10. Appium-Exercise-1\\AppiumProject\\ColorNoteApp\\ColorNoteAppTests.cs",
+              "RelativeToolTip": "ColorNoteApp\\ColorNoteAppTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T13:47:52.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
