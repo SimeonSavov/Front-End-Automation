@@ -1,0 +1,288 @@
+{
+  "id": "910b1bb2-a876-4495-b0c0-b0521201779c",
+  "version": "2.0",
+  "name": "IdeaCenterProject",
+  "url": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83/",
+  "tests": [{
+    "id": "e47c99c2-b1c0-4acb-a360-06a4f82859d4",
+    "name": "01. HomePageNavigationTest",
+    "commands": [{
+      "id": "b31a478a-f1b7-4e79-925c-2f533220768f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5db017f-de6b-4ac8-b710-e4aa26e5a217",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "888a01a9-51e8-4ebe-8630-7b695f8a9ff4",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Home Page - IdeaCenter.WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b07f9b31-b306-4912-94e6-b5eb9f6cebff",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eccea890-3c85-4132-b3ac-d13e39d5a51b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-outline-info px-3 me-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5b50263-1e23-4716-95e5-9a47717d1693",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bdc0e757-ff81-4cf3-a1ab-17b6bd07acf2",
+    "name": "02. LoginAndLogoutTest",
+    "commands": [{
+      "id": "a4114b43-c064-48aa-8f19-8ad958793343",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9157842-6436-4fbf-9d7e-77d505ace130",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b05df128-87f9-4929-a5be-2295ca85e6c8",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-outline-info px-3 me-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74e0eb99-1ef9-43ab-a3a2-e7cec287f8a0",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typeEmailX-2']",
+      "targets": [],
+      "value": "user@gmail.com"
+    }, {
+      "id": "5cb6043a-e92c-424a-9090-eab32891ba90",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typePasswordX-2']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "5880329f-b955-493b-ba1c-d44e94ac944a",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-lg btn-block']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "211a7dd2-411c-42f3-a756-f1fd3c7a9451",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[@class='nav-link' and text()='My Profile']",
+      "targets": [],
+      "value": "My Profile"
+    }, {
+      "id": "a48016fa-06be-49c8-ab29-9be41af9f6eb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[@class='nav-link' and text()='My Ideas']",
+      "targets": [],
+      "value": "My Ideas"
+    }, {
+      "id": "5b86493e-9c15-4e74-9421-9f84f3f5e5ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//a[@class='nav-link' and text()='Create Idea']",
+      "targets": [],
+      "value": "Create Idea"
+    }, {
+      "id": "cde05209-6706-4fab-b5e1-5821057bb69d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d4d37d0-a36a-439d-9ca7-7733f480afcb",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f79bd9e-4656-4a40-9959-d9e2965c25f8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d142b512-f2bc-481a-9342-22bf2ae997eb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6ea45441-868b-49a6-a0c0-5418e3d59204",
+    "name": "03. LoginAndEditUserProfileTest",
+    "commands": [{
+      "id": "8de6e2b2-9cd0-4a4e-94ba-b3dc904c9195",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8226102e-e589-4a48-8172-5f30761e2c93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc2c4f31-c8bd-4c69-b72b-1884b60da978",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-outline-info px-3 me-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62833efe-5b6c-4e75-9ffd-b5e2b4a1586f",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typeEmailX-2']",
+      "targets": [],
+      "value": "user@gmail.com"
+    }, {
+      "id": "f8d95c9c-da17-4474-a935-ae1fb110f965",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typePasswordX-2']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "d3d9b148-7f2e-406b-8a6f-060faedd9cbb",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-lg btn-block']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cb48a73-354d-4cc6-893c-188904032efc",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link' and text()='My Profile']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9b5625d-b4e9-462b-be3f-3e47a4569812",
+      "comment": "",
+      "command": "click",
+      "target": "//span[contains(text(), 'Edit profile')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08763b00-ff90-478b-9203-7ed5d882d16f",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='FirstName']",
+      "targets": [],
+      "value": "Simeon"
+    }, {
+      "id": "87cae5e4-2043-482d-8698-df3131af1253",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='LastName']",
+      "targets": [],
+      "value": "Savov"
+    }, {
+      "id": "77443212-a0e3-4d8c-865b-ed1f128cee01",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='City']",
+      "targets": [],
+      "value": "Sofia"
+    }, {
+      "id": "89a81505-f232-429b-88df-f7607f769808",
+      "comment": "",
+      "command": "type",
+      "target": "//textarea[@name='About']",
+      "targets": [],
+      "value": "Happy to be here!"
+    }, {
+      "id": "b7e15759-501c-4ee4-8961-6e377d6274e2",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-lg']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8215154-c749-472f-83f5-eb7724bd130e",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class='ms-3']//p",
+      "targets": [],
+      "value": "Simeon Savov , Sofia"
+    }, {
+      "id": "8e9ba1e8-c47f-4c45-b0aa-e21e89e73382",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class='p-4']//p",
+      "targets": [],
+      "value": "Happy to be here!"
+    }, {
+      "id": "c1f6f0b0-0b48-4007-906e-c677fca13fe0",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c50afa57-f497-4b3f-a542-fa6787c35062",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc9f828e-96db-44ea-8e30-f33d4cf3bfb0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "58177129-ab51-4dca-8526-0b71331803fb",
+    "name": "UserManagementIdeaCenter",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e47c99c2-b1c0-4acb-a360-06a4f82859d4", "bdc0e757-ff81-4cf3-a1ab-17b6bd07acf2", "6ea45441-868b-49a6-a0c0-5418e3d59204"]
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83/"],
+  "plugins": []
+}
