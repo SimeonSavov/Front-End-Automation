@@ -1,0 +1,295 @@
+{
+  "id": "af954d0d-360d-4e9a-9f25-f3b72847b407",
+  "version": "2.0",
+  "name": "FoodyTestProject",
+  "url": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:85/",
+  "tests": [{
+    "id": "29d0bd0d-df91-4932-82f2-eca4028edf29",
+    "name": "01.HomePageTest",
+    "commands": [{
+      "id": "8c2948db-fa00-4d2f-af40-43f08951ba34",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e402d08-9840-4683-ac52-e80c1883b273",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0820fe34-3def-4570-ab6f-ae64e617ef34",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Home Page - Foody.WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca1dacfb-09af-4e88-a214-be821a338aee",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//li[@class='nav-item']//a[@class='nav-link' and text()='Sign Up']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccccafba-f069-4725-aa0a-5837257d57c1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//li[@class='nav-item']//a[@class='nav-link' and text()='Log In']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d4dd51f-a273-4c2a-9702-44fa6be68f27",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary btn-xl rounded-pill mt-5']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13acfca5-852a-4671-a957-f501ee3a5b2f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "de3be913-cca0-4090-90e1-13bf97b38d9c",
+    "name": "02.LoginAndLogoutTest",
+    "commands": [{
+      "id": "2d4e965f-98d4-4cd0-a9e8-7e304ffffa53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5698475d-b7fe-4685-b631-a27c17a4f957",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3f19d45-19e8-4f6d-9696-98fcea2f9c8c",
+      "comment": "",
+      "command": "click",
+      "target": "//li[@class='nav-item']//a[@class='nav-link' and text()='Log In']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d9847ba-2627-41a8-9d43-c386fd9a2889",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='username']",
+      "targets": [],
+      "value": "user12"
+    }, {
+      "id": "e64c5180-5909-4bad-bf1e-9ce760725402",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='password']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "9a459b19-8535-4932-b7af-a5a39e3b8fb3",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-block fa-lg gradient-custom-2 mb-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9d5c589-767e-4bdd-8044-627bb68e98a4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link mx-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fbec8a0-cbdb-413a-bbe8-161278bfdeb3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link' and text()='Add Food']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6655fd98-7189-4a35-9f28-d1a0081e99cc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link' and text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b62bb45-f6a2-47a2-a368-2184b633cc15",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h2[@class='masthead-subheading mb-0']",
+      "targets": [],
+      "value": "Welcome, user12!"
+    }, {
+      "id": "d20c5f65-824a-4c8b-95cf-21b1bd264289",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link' and text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9de61b50-19f6-4381-bd34-eed83ca3f105",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h2[@class='masthead-subheading mb-0']",
+      "targets": [],
+      "value": "Share your homemade or store-bought food with us!"
+    }, {
+      "id": "da1f1d77-c290-4caf-bf98-66ba0d6ef7f5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f0bae098-537d-4e20-a320-182a7eaf3ff1",
+    "name": "03.EditProfileTest",
+    "commands": [{
+      "id": "d7e22712-b09c-4a34-ad14-dc0a948a288f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b41873b0-b9d8-4216-8acd-b97eb47af45c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "264b8cce-4513-4e83-bf01-8c57e6f9ac9b",
+      "comment": "",
+      "command": "click",
+      "target": "//li[@class='nav-item']//a[@class='nav-link' and text()='Log In']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ad230bc-ea40-43b1-bac6-abbf025a359c",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='username']",
+      "targets": [],
+      "value": "user12"
+    }, {
+      "id": "8bc05ce1-61f0-44c4-9194-5fc59704eb87",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='password']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "617951d8-c7f1-4d08-9dcf-7e8d7cce5b91",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-block fa-lg gradient-custom-2 mb-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4899c35-8010-4d4c-9cbd-d4f406b42215",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link mx-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aec594e0-f4d5-4aa1-9208-bb63c9ca61cf",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-primary']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96aba1e2-065c-479f-8468-e0ac87ee1ba6",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='FirstName']",
+      "targets": [],
+      "value": "Edit"
+    }, {
+      "id": "91f62b78-6f76-4cde-a081-d57486918e1b",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='MiddleName']",
+      "targets": [],
+      "value": "Edited"
+    }, {
+      "id": "ef5a8280-9349-4398-a6c1-7779e469dfe9",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='LastName']",
+      "targets": [],
+      "value": "Edited"
+    }, {
+      "id": "741a2798-a6e5-417c-8c56-abb2e32c53a6",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='About']",
+      "targets": [],
+      "value": "Add something"
+    }, {
+      "id": "b65e1107-22bf-4cfd-8840-7bf246e49d22",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-block fa-lg gradient-custom-2 mb-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2ea6925-e5e7-4e28-a614-d85b7e3166ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//p[text()='Edit Edited Edited']",
+      "targets": [],
+      "value": "Edit Edited Edited"
+    }, {
+      "id": "951b7afd-db09-4af4-8435-f0f6bde3f541",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@class='card-body']//p[@class='mb-1' and text()='Add something']",
+      "targets": [],
+      "value": "Add something"
+    }, {
+      "id": "51beb946-2ca8-445e-a6cf-2e216bb0798a",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link' and text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a0b431c-ac4b-45df-bba3-d40433ef2404",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h2[@class='masthead-subheading mb-0']",
+      "targets": [],
+      "value": "Share your homemade or store-bought food with us!"
+    }, {
+      "id": "eb5bcd09-5df3-4e42-b1a9-0802ab5ed417",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3d074399-0299-4098-bd56-28af1c490c38",
+    "name": "FoodyUserFunctionality",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29d0bd0d-df91-4932-82f2-eca4028edf29", "de3be913-cca0-4090-90e1-13bf97b38d9c", "f0bae098-537d-4e20-a320-182a7eaf3ff1"]
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:85/"],
+  "plugins": []
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Exam-18-August-2024\\FoodyProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7594DB7-2401-4435-BC9E-226FCA297514}|FoodyProject\\FoodyProject.csproj|c:\\users\\simo7\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\exam-18-august-2024\\foodyproject\\foodyproject\\tests\\foodytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7594DB7-2401-4435-BC9E-226FCA297514}|FoodyProject\\FoodyProject.csproj|solutionrelative:foodyproject\\tests\\foodytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7594DB7-2401-4435-BC9E-226FCA297514}|FoodyProject\\FoodyProject.csproj|c:\\users\\simo7\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\exam-18-august-2024\\foodyproject\\foodyproject\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7594DB7-2401-4435-BC9E-226FCA297514}|FoodyProject\\FoodyProject.csproj|solutionrelative:foodyproject\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodyTests.cs",
+              "DocumentMoniker": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Exam-18-August-2024\\FoodyProject\\FoodyProject\\Tests\\FoodyTests.cs",
+              "RelativeDocumentMoniker": "FoodyProject\\Tests\\FoodyTests.cs",
+              "ToolTip": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Exam-18-August-2024\\FoodyProject\\FoodyProject\\Tests\\FoodyTests.cs",
+              "RelativeToolTip": "FoodyProject\\Tests\\FoodyTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:55:37.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasePage.cs",
+              "DocumentMoniker": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Exam-18-August-2024\\FoodyProject\\FoodyProject\\Pages\\BasePage.cs",
+              "RelativeDocumentMoniker": "FoodyProject\\Pages\\BasePage.cs",
+              "ToolTip": "C:\\Users\\simo7\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Exam-18-August-2024\\FoodyProject\\FoodyProject\\Pages\\BasePage.cs",
+              "RelativeToolTip": "FoodyProject\\Pages\\BasePage.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:33:17.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
